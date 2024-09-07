@@ -6,11 +6,13 @@ import Register from './pages/Register';
 import AllProducts from './pages/AllProducts';
 import Product from './pages/Product';
 import NotFound from './pages/NotFound';
+import Navbar from './components/Navbar';
 
 function App() {
 
   return (
     <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
