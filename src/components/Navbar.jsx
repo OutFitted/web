@@ -55,7 +55,7 @@ const Navbar = () => {
           {/* Sign In and Register Buttons on the right */}
           <div className="hidden md:flex items-center space-x-4">
             <a
-              href="/signin"
+              href="/login"
               className="px-4 py-2 bg-gray-200 text-gray-800 font-semibold rounded-md hover:bg-gray-300 transition duration-200"
             >
               Sign In
