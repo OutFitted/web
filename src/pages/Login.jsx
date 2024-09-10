@@ -30,9 +30,15 @@ const Login = () => {
         {/* Right side - Form */}
         <div className="flex p-8 lg:p-12 w-full h-full items-center justify-center basis-1/2">
           <div className="w-full max-w-md">
-            <h2 className="text-3xl font-semibold text-center text-gray-700 mb-6">
-              Login
+            <div className="mb-6">
+              <img src="/src/assets/wave.png" alt="wave-emoji" className="w-12 h-12" />
+            </div>
+            <h2 className="text-4xl font-bold text-left text-black">
+              Welcome to Outfitted!
             </h2>
+            <div className="text-gray-700 my-4">How do i get started outfitted at?</div>
+
+            <div className="w-[26px] border-b-4 border-gray-300 my-4"></div>
 
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
               {/* Email */}
